@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Hammer.ma
-//Last modified: Tue, Jan 14, 2020 03:56:37 PM
+//Last modified: Tue, Jan 14, 2020 03:58:24 PM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "8BD76864-4B29-D4B5-9FD6-708EE8DEAF61";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -17.375524236804218 12.612070147877303 -15.23594638243377 ;
-	setAttr ".r" -type "double3" -26.738352730661209 -847.39999999972076 0 ;
+	setAttr ".t" -type "double3" 27.355559770363605 -1.2567881944365817 -3.4460001461478562 ;
+	setAttr ".r" -type "double3" 4.4616472389592978 -984.60000000009609 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B61522D9-451E-39A9-CBBD-FA80F59775D1";
 	setAttr -k off ".v" no;
@@ -84,7 +84,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.40625 0.375 ;
+	setAttr ".pv" -type "double2" 0.75 0.125 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 90 ".uvst[0].uvsp[0:89]" -type "float2" 0.375 0 0.625 0 0.375
 		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
@@ -102,11 +102,19 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 12 ".pt";
+	setAttr -s 20 ".pt";
 	setAttr ".pt[0]" -type "float3" 0 0 -0.1 ;
 	setAttr ".pt[2]" -type "float3" 0 0 -0.1 ;
 	setAttr ".pt[4]" -type "float3" 0 0 0.1 ;
 	setAttr ".pt[6]" -type "float3" 0 0 0.1 ;
+	setAttr ".pt[24]" -type "float3" 0 0.83987856 0 ;
+	setAttr ".pt[25]" -type "float3" 0 0.83987856 0 ;
+	setAttr ".pt[26]" -type "float3" 0 0.83987856 0 ;
+	setAttr ".pt[27]" -type "float3" 0 0.83987856 0 ;
+	setAttr ".pt[32]" -type "float3" -1.4901161e-08 -0.8398785 0 ;
+	setAttr ".pt[33]" -type "float3" -1.4901161e-08 -0.8398785 0 ;
+	setAttr ".pt[34]" -type "float3" -1.4901161e-08 -0.8398785 0 ;
+	setAttr ".pt[35]" -type "float3" -1.4901161e-08 -0.8398785 0 ;
 	setAttr ".pt[60]" -type "float3" 0 0 0.30000001 ;
 	setAttr ".pt[61]" -type "float3" 0 0 -0.30000001 ;
 	setAttr ".pt[62]" -type "float3" 0 0 -0.30000001 ;
