@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Hammer.ma
-//Last modified: Tue, Jan 14, 2020 03:58:24 PM
+//Last modified: Tue, Jan 14, 2020 03:59:30 PM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "8BD76864-4B29-D4B5-9FD6-708EE8DEAF61";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 27.355559770363605 -1.2567881944365817 -3.4460001461478562 ;
-	setAttr ".r" -type "double3" 4.4616472389592978 -984.60000000009609 0 ;
+	setAttr ".t" -type "double3" 5.9411427600995665 10.350773816522029 -25.010089101250706 ;
+	setAttr ".r" -type "double3" -21.338352761069682 -911.00000000005866 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B61522D9-451E-39A9-CBBD-FA80F59775D1";
 	setAttr -k off ".v" no;
