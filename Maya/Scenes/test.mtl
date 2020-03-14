@@ -4,6 +4,12 @@ Kd 0.50 0.05 0.05
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+newmtl BrakeLight1
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
 newmtl ChromeMesh1
 illum 4
 Kd 0.03 0.03 0.03
@@ -13,6 +19,12 @@ Ni 1.00
 newmtl DetailMesh1
 illum 4
 Kd 0.09 0.39 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl FabricMesh1
+illum 4
+Kd 0.10 0.05 0.03
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
@@ -28,15 +40,21 @@ Kd 0.50 0.50 0.50
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl LightMesh1
+newmtl HardPlastic
 illum 4
-Kd 1.00 1.00 1.00
+Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
 newmtl MirrorMesh1
 illum 4
 Kd 0.16 0.50 0.20
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl PipeMesh1
+illum 4
+Kd 0.04 0.17 0.22
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
@@ -55,12 +73,6 @@ Ni 1.00
 newmtl initialShadingGroup
 illum 4
 Kd 0.86 0.09 0.09
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert12SG
-illum 4
-Kd 1.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
