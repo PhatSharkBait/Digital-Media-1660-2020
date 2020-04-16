@@ -4,8 +4,18 @@ Kd 0.50 0.05 0.05
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+<<<<<<< Updated upstream
 newmtl BlackFrameMesh1
 illum 4
+=======
+<<<<<<< HEAD
+newmtl BrakeLight1
+illum 4
+Kd 1.00 0.00 0.00
+=======
+newmtl BlackFrameMesh1
+illum 4
+>>>>>>> Stashed changes
 Kd 0.10 0.20 0.22
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
@@ -32,6 +42,10 @@ Ni 1.00
 newmtl BrakeMesh
 illum 4
 Kd 0.50 0.50 0.50
+<<<<<<< Updated upstream
+=======
+>>>>>>> FixingCar
+>>>>>>> Stashed changes
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
@@ -65,9 +79,21 @@ Kd 0.50 0.50 0.50
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+<<<<<<< Updated upstream
 newmtl HeadlightMesh1
 illum 4
 Kd 1.00 0.75 0.00
+=======
+<<<<<<< HEAD
+newmtl HardPlastic
+illum 4
+Kd 0.00 0.00 0.00
+=======
+newmtl HeadlightMesh1
+illum 4
+Kd 1.00 0.75 0.00
+>>>>>>> FixingCar
+>>>>>>> Stashed changes
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
@@ -77,6 +103,7 @@ Kd 0.16 0.50 0.20
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+<<<<<<< Updated upstream
 newmtl RimMesh
 illum 4
 Kd 0.17 0.50 0.15
@@ -92,6 +119,29 @@ Ni 1.00
 newmtl SpringMesh
 illum 4
 Kd 0.11 0.05 0.50
+=======
+<<<<<<< HEAD
+newmtl PipeMesh1
+illum 4
+Kd 0.04 0.17 0.22
+=======
+newmtl RimMesh
+illum 4
+Kd 0.17 0.50 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl SilverFrameMesh
+illum 4
+Kd 1.00 0.65 0.65
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl SpringMesh
+illum 4
+Kd 0.11 0.05 0.50
+>>>>>>> FixingCar
+>>>>>>> Stashed changes
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
@@ -113,3 +163,15 @@ Kd 0.86 0.09 0.09
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+newmtl lambert15SG
+illum 4
+Kd 0.10 0.05 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+=======
+>>>>>>> FixingCar
+>>>>>>> Stashed changes
